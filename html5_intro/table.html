@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Employee Data
+      </caption>
+      <thead>
+        <th>No.</th>
+        <th>Name.</th>
+        <th>Company</th>
+        <th>Salary</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Bill Gates</td>
+          <td>Microsoft</td>
+          <td>1000$</td>
+        </tr>
+        <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Steve Jobs</td>
+          <td>Apple</td>
+          <td>1200$</td>
+        </tr>
+        <tr>
+          <td>Row 3, Cell 1</td>
+          <td>Larry Page</td>
+          <td>Google</td>
+          <td>1500$</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <ul>
+      <li>Table: table</li>
+      <li>Table Head: thead</li>
+      <li>Table Body: tbody</li>
+      <li>Table Footer: tfoot</li>
+      <li>Table Row: tr</li>
+      <li>table data or table cell: td</li>
+    </ul>
+  </body>
+</html>
